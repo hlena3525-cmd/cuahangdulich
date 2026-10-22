@@ -1,19 +1,29 @@
 .hero-section {
-    background: url("Cửa\ Lò.jpg");
+    background: url("Cửa Lò.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
 }
+
 .card-img-custom {
     height: 200px;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+.avatar-review {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center 40%;
+    border-radius: 50%;
+}
+
 .text-star {
     color: rgb(12, 176, 126);
 }
+
 ul.list-unstyled a {
     color: inherit;
     text-decoration: none;
